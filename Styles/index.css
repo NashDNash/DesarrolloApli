@@ -1,0 +1,12 @@
+/* Todas las etiquetas section */
+section {
+    background-color: cyan;
+}
+/* # = id */
+#section-1 {
+    background-color: aquamarine;
+}
+/* . = clase */
+.secciones{
+    background-color: chocolate;
+}
