@@ -30,3 +30,8 @@ li trans{
     filter: drop-shadow(5px 5px rgba(6, 66, 68, 0.514));
 
 }
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
