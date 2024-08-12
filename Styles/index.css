@@ -1,12 +1,32 @@
-/* Todas las etiquetas section */
+.back_image {
+    background-image: url("fondo.png");
+    height: 960px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header {
+    color:rgb(0, 83, 139);
+    font-size:xx-large;
+    text-align: center;
+}
+.alineado {
+    display:flex;
+    align-items: center;
+    margin-top: 60px;
+    margin-left: 150px;
+}
 section {
-    background-color: cyan;
+    color:rgb(15, 57, 84);
+    padding: 50px;
 }
-/* # = id */
-#section-1 {
-    background-color: aquamarine;
+ul.conocimientos{
+    background-color: rgba(255, 255, 255, 0.438);
 }
-/* . = clase */
-.secciones{
-    background-color: chocolate;
+li trans{
+    color:rgb(15, 57, 84, 0.5);
+}
+.sombra {
+    filter: drop-shadow(5px 5px rgba(6, 66, 68, 0.514));
+
 }
