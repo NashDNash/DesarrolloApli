@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <title>Formulario de prueba</title>
+        <meta charset="UTF-8"/>
+        <meta property="og:description" content="Esteban Póvez Rojas \n Estudiante de Ing. Civil Informática \n Universidad Autónoma de Chile, Temuco"/>
+        <meta property="og:image" content="https://z-p3-scontent.fzco1-1.fna.fbcdn.net/v/t39.30808-6/416729669_744569484374155_716946298811586667_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeG7wNwBB-azOGNCmfx54q3j6Dzw2VRRLTDoPPDZVFEtMKTrf7XkGKc-EmmTF_S0AiRg7lwkt_sFxMMInY6bVNmG&_nc_ohc=LSaJTeRUTsoQ7kNvgHsDtIn&_nc_zt=23&_nc_ht=z-p3-scontent.fzco1-1.fna&oh=00_AYBjjpkcaTrpz0mED4XXQuO4cUcZblv65MHHOR4EjcjChA&oe=66C02BF6"/>
+        <link rel="stylesheet" href="Styles/index.css"/>
+    </head>
+    <body>
+        <div class="back_image">
+            <header><b>Formulario</b></header>
+            <form class="form_style">
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Nombre</label>
+                  <input class="form-control" id="nombre" aria-describedby="emailHelp" placeholder="Ingrese su nombre">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Apellido</label>
+                  <input class="form-control" id="apellido" placeholder="Ingrese su apellido">
+                </div>
+                <button type="submit" class="btn btn-primary" onclick="ejecutarBoton()">Enviar</button>
+              </form>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body>
+
+    <script>
+        function ejecutarBoton(){
+            const nombre = document.getElementById("nombre").value;
+            const apellido = document.getElementById("apellido").value;
+            alert("Bienvenido "+nombre+" "+apellido);
+        }
+    </script>
+
+</html>
